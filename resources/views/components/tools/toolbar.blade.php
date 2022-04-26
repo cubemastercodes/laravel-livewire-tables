@@ -84,7 +84,6 @@
             
                     @if ($component->isFilterLayoutPopover())
                         <div
-                            wire:key='{{ $component->getTableName() }}-filters-popover-menu'
                             x-cloak
                             x-show="open"
                             x-transition:enter="transition ease-out duration-100"
